@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 1520px) {
+	#start .main_slider .direction a p {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	#start .main_slider .direction a.prev,
+	#start .main_slider .direction a.prev.visible {
+		display: none;
+	}
+	#start .main_slider .direction a.next,
+	#start .main_slider .direction a.next.visible {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1120px) {
+	#start .main_slider .keytext {
+		padding: 0 30px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	#start .main_slider .swiper_control {
+		width: calc(100% - 60px);
+	}
+}
+@media only screen and (max-width: 820px) {
+	.size_br {
+		display: block;
+	}
+	.size_un {
+		display: none;
+	}
+	#page1 .inner .spot p {
+		padding: 120px 12vw 120px;
+	}
+	#page1 .inner li {
+		padding: 70px 12vw 70px;
+	}
+	#page2 .inner .spot_box {
+		flex-direction: column;
+	}
+	#page2 .inner .spot_box h3 {
+		font-size: 24px;
+	}
+	#page2 .inner .spot_box p {
+		font-size: 38px;
+	}
+	#page2 .inner .spot_box {
+		margin-left: 12vw;
+	}
+	#page2 .inner li .info {
+		flex-direction: column;
+	}
+	#page2 .inner li .info .hash_tag span {
+		display: inline-block;
+	}
+	#page2 .inner li .info .hash_tag {
+		max-width: unset;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	#page2 .inner li .info a h4 {
+		font-size: 32px;
+	}
+	#page2 .inner li .info a span {
+		font-size: 32px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	#start .main_slider .keytext {
+		top: 43%;
+	}
+	#start .main_slider .keytext strong {
+		font-size: 2em;
+	}
+	#page1 .inner .spot p {
+		padding: 100px 0px 100px 30px;
+		font-size: 40px;
+	}
+	#page1 .inner li {
+		padding: unset;
+		padding: 60px 0px 60px 30px;
+	}
+	#page2 {
+		padding: 150px 0;
+	}
+	#page2 .inner .spot_box {
+		margin-left: 30px;
+	}
+	#page2 .inner .spot_box p {
+		font-size: 34px;
+	}
+	#page2.tr_scroll .inner .spot_box h3 {
+		font-size: 20px;
+		margin-bottom: 16px;
+	}
+	#page2 .inner li > a {
+		margin-bottom: 24px;
+	}
+	#page2 .inner li .info a h4 {
+		font-size: 26px;
+	}
+	#page2 .inner li .info .hash_tag span:nth-child(n+2) {
+		margin-left: 5px;
+	}
+	#page2 .inner li .info a span {
+		font-size: 26px;
+	}
+	#page2 .inner li .info p,
+	#page2 .inner li .info .hash_tag {
+		font-size: 14px;
+	}
+}
