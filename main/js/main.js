@@ -38,7 +38,8 @@ const keytextString=[
 		sub_title: "Create semantic pages that increase web accessibility",
 		sub1: "W Concept 사이트 리뉴얼",
 		sub2: "제작기간 3주",
-		sub3: "HTML + CSS + jQuery + Figma"
+		sub3: "HTML + CSS + jQuery + Figma",
+		link: "project1"
 	},
 	{
 		image: "main2.png",
@@ -47,7 +48,8 @@ const keytextString=[
 		sub_title: "Using JavaScript implementations and libraries",
 		sub1: "YBM ECC 사이트 리뉴얼",
 		sub2: "제작기간 3주",
-		sub3: "HTML + CSS + JavaScript + Figma"
+		sub3: "HTML + CSS + JavaScript + Figma",
+		link: "project2"
 	},
 	{
 		image: "main3.png",
@@ -56,7 +58,8 @@ const keytextString=[
 		sub_title: "User interface implementation using React",
 		sub1: "BARESIO 사이트 리뉴얼",
 		sub2: "제작기간 3주",
-		sub3: "HTML + CSS + JavaScript + React + Figma"
+		sub3: "HTML + CSS + JavaScript + React + Figma",
+		link: "project3"
 	}
 ];
 
@@ -122,7 +125,7 @@ function textInteractive(n){
 				<span>${keytextString[n].sub2}</span>
 				<span>${keytextString[n].sub3}</span>
 			</p>
-			<a href="" class="link_button">바로가기</a>
+			<a href="https://googooham.github.io/portfolio/${keytextString[n].link}/index.html" class="link_button">바로가기</a>
 		`;
 	}, 10)
 
